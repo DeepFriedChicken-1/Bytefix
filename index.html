@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bytefix - Tech Support & Community Literacy</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Very dark background */
+            background-color: #1A1A2E;
+            color: #E0E0E0; /* Light gray for primary text */
+            line-height: 1.6;
+        }
+        .section-heading {
+            /* Primary blue accent color for headings */
+            color: #8D8DAA; /* A muted blue/purple for headings */
+            font-weight: 700;
+        }
+        .card-bg {
+            /* Slightly lighter dark background for cards */
+            background-color: #2D2D44;
+        }
+        .border-color {
+            border-color: #4A4A6A; /* A mid-tone blue/purple for borders */
+        }
+        .text-accent {
+            color: #A2A2D0; /* Lighter shade of the accent color for subtle accents */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Header Section -->
+    <header class="bg-[#10101F] text-white py-6 shadow-lg rounded-b-lg">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-4xl font-bold text-white mb-4 md:mb-0">Bytefix</h1>
+            <nav>
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-white">
+                    <li><a href="#about" class="hover:text-gray-300 transition-colors duration-300">About Us</a></li>
+                    <li><a href="#goals" class="hover:text-gray-300 transition-colors duration-300">Our Goals</a></li>
+                    <li><a href="#availability" class="hover:text-gray-300 transition-colors duration-300">Where We Are</a></li>
+                    <li><a href="#contact" class="px-4 py-2 bg-[#8D8DAA] text-white rounded-lg hover:bg-[#A2A2D0] transition-colors duration-300">Get Help</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 px-4 bg-[#21213A]">
+        <div class="container mx-auto">
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-6 text-white leading-tight">
+                Empowering Communities Through Tech Literacy
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                Connecting you with skilled volunteers to solve your tech troubles and build digital confidence.
+            </p>
+            <a href="#contact" class="inline-block px-8 py-4 bg-[#8D8DAA] text-white text-xl font-semibold rounded-xl shadow-lg hover:bg-[#A2A2D0] transition-transform transform hover:scale-105 duration-300">
+                Find a Volunteer Today
+            </a>
+        </div>
+    </section>
+
+    <!-- What are we about? Section -->
+    <section id="about" class="py-16 px-4 bg-[#2D2D44] rounded-lg mx-auto max-w-6xl shadow-xl mt-12">
+        <div class="container mx-auto">
+            <h3 class="text-4xl section-heading text-center mb-10">What are we about?</h3>
+            <div class="flex flex-col md:flex-row items-center md:space-x-8">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <!-- Placeholder image with new dark theme and blue/purple accents -->
+                    <img src="https://placehold.co/600x400/8D8DAA/1A1A2E?text=Community+Tech+Support" alt="Community Tech Support" class="rounded-xl shadow-lg w-full h-auto object-cover">
+                </div>
+                <div class="md:w-1/2 text-gray-300">
+                    <p class="mb-6 text-lg">
+                        Bytefix is a non-profit organization dedicated to bridging the digital divide by offering free, accessible tech support and fostering computer literacy within underserved communities. We believe that everyone deserves the opportunity to navigate the digital world with confidence, regardless of their background or economic status.
+                    </p>
+                    <p class="mb-6 text-lg">
+                        Our model is simple yet powerful: we connect individuals facing tech challenges with a network of passionate and knowledgeable volunteers. These volunteers provide one-on-one assistance, troubleshoot common issues, and offer guidance on essential digital skills.
+                    </p>
+                    <p class="text-lg">
+                        Beyond fixing immediate problems, Bytefix aims to build sustainable tech independence. We host workshops, create educational resources, and empower community members to become their own tech advocates, creating a ripple effect of knowledge and support.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What are our goals? Section -->
+    <section id="goals" class="py-16 px-4 bg-[#21213A]">
+        <div class="container mx-auto">
+            <h3 class="text-4xl section-heading text-center mb-10">Our Goals</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Goal Card 1 -->
+                <div class="card-bg p-8 rounded-xl shadow-lg border border-color">
+                    <h4 class="text-2xl font-semibold text-accent mb-4">Empowerment Through Support</h4>
+                    <p class="text-gray-300 mb-4">
+                        Provide direct tech assistance to individuals in need.
+                    </p>
+                    <p class="text-3xl font-bold text-[#8D8DAA]">10,000+ fixes/year</p>
+                    <p class="text-gray-400 text-sm mt-2">Achieving a 90% user satisfaction rate.</p>
+                </div>
+                <!-- Goal Card 2 -->
+                <div class="card-bg p-8 rounded-xl shadow-lg border border-color">
+                    <h4 class="text-2xl font-semibold text-accent mb-4">Building Digital Skills</h4>
+                    <p class="text-gray-300 mb-4">
+                        Conduct workshops and training sessions to boost computer literacy.
+                    </p>
+                    <p class="text-3xl font-bold text-[#8D8DAA]">500+ workshop attendees/month</p>
+                    <p class="text-gray-400 text-sm mt-2">Leading to a measurable increase in digital proficiency.</p>
+                </div>
+                <!-- Goal Card 3 -->
+                <div class="card-bg p-8 rounded-xl shadow-lg border border-color">
+                    <h4 class="text-2xl font-semibold text-accent mb-4">Expanding Our Reach</h4>
+                    <p class="text-gray-300 mb-4">
+                        Establish new community hubs and volunteer networks.
+                    </p>
+                    <p class="text-3xl font-bold text-[#8D8DAA]">Open in 5 new cities/year</p>
+                    <p class="text-gray-400 text-sm mt-2">By Q4 of next year, we aim to have 15 active locations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Where are we available? Section -->
+    <section id="availability" class="py-16 px-4 bg-[#2D2D44] rounded-lg mx-auto max-w-6xl shadow-xl mt-12">
+        <div class="container mx-auto">
+            <h3 class="text-4xl section-heading text-center mb-10">Where are we available?</h3>
+            <div class="flex flex-col md:flex-row items-center md:space-x-8">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <p class="mb-6 text-lg text-gray-300">
+                        Bytefix is rapidly expanding its reach to help more communities. We currently operate in several key locations, with plans to grow further. Our services are primarily offered through local community centers, libraries, and dedicated Bytefix hubs.
+                    </p>
+                    <ul class="list-disc list-inside text-lg text-gray-300 space-y-2">
+                        <li><strong>Major City A:</strong> Downtown Community Hub, Northside Library</li>
+                        <li><strong>Major City B:</strong> Southside Tech Center, East End Community Hall</li>
+                        <li><strong>Major City C:</strong> Central Library Branch, Westside Youth Center</li>
+                        <li><strong>Virtual Support:</strong> Available nationwide for select issues via online consultation.</li>
+                    </ul>
+                    <p class="mt-6 text-lg text-gray-400">
+                        Check back often as we are continuously adding new locations and expanding our volunteer network! If you're interested in bringing Bytefix to your area, please reach out.
+                    </p>
+                </div>
+                <div class="md:w-1/2">
+                    <!-- Placeholder map image with new dark theme and blue/purple accents -->
+                    <img src="https://placehold.co/600x400/8D8DAA/1A1A2E?text=Location+Map" alt="Location Map" class="rounded-xl shadow-lg w-full h-auto object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Simple Placeholder) -->
+    <section id="contact" class="py-16 px-4 text-center bg-[#21213A]">
+        <div class="container mx-auto">
+            <h3 class="text-4xl section-heading mb-6">Get In Touch</h3>
+            <p class="text-xl text-gray-300 mb-8">
+                Ready to get your tech fixed or want to volunteer? Contact us today!
+            </p>
+            <p class="text-2xl font-bold text-[#8D8DAA]">
+                info@bytefix.org
+            </p>
+            <p class="text-lg text-gray-400 mt-4">
+                (123) 456-7890
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-[#10101F] text-gray-400 py-8 text-center rounded-t-lg mt-12">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Bytefix. All rights reserved.</p>
+            <p class="text-sm mt-2">Empowering communities, one fix at a time.</p>
+        </div>
+    </footer>
+</body>
+</html>
